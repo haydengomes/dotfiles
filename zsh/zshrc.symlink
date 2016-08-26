@@ -32,6 +32,9 @@ antigen bundle zsh-users/zsh-completions
 antigen theme tylerwolf/zsh-theme twolf
 # antigen theme pygmalion
 
+# ZSH syntax highlighting (must be sourced last)
+antigen bundle zsh-users/zsh-syntax-highlighting
+
 # Done
 antigen apply
 
