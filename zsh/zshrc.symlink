@@ -14,7 +14,6 @@ antigen bundle extract
 antigen bundle osx
 antigen bundle pod
 antigen bundle ruby
-antigen bundle rvm
 antigen bundle sudo
 antigen bundle svn-fast-info
 antigen bundle web-search
@@ -74,3 +73,6 @@ do
 done
 
 unset config_files
+export JAVA_HOME="$(/usr/libexec/java_home -v 1.8)"
+export PATH="./node_modules/.bin:$PATH"
+export PATH="/Users/haydengomes/bin/Sencha/Cmd:$PATH"
