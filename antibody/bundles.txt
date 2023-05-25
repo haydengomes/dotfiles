@@ -5,9 +5,9 @@ djui/alias-tips
 mafredri/zsh-async
 robbyrussell/oh-my-zsh path:plugins/extract
 robbyrussell/oh-my-zsh path:plugins/sudo
-rupa/z
 zsh-users/zsh-completions
 zsh-users/zsh-autosuggestions
+romkatv/powerlevel10k
 
 # these should be at last!
 sindresorhus/pure
