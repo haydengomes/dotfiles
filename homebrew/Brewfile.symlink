@@ -8,10 +8,10 @@ brew 'zsh'
 
 # Productivity
 brew 'ack'
-brew 'autojump'
 brew 'coreutils'
 brew 'diff-so-fancy'
 brew 'findutils'
 brew 'cowsay'
 brew 'jenv'
-
+brew 'node@14'
+brew 'yarn'
