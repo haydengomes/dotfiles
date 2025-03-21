@@ -1,8 +1,10 @@
-
 # Replace outdated system libraries
 brew 'git'
 brew 'openssl'
 brew 'zsh'
+
+# Shell
+brew 'antidote'
 
 # Productivity
 brew 'ack'
@@ -13,3 +15,6 @@ brew 'findutils'
 brew 'cowsay'
 brew 'jenv'
 
+# Fonts
+cask "font-hack"
+cask "font-jetbrains-mono"

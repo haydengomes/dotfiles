@@ -12,9 +12,9 @@ tab_title() {
   BETTER_PWD=$(PWD)
 
   if [[ $GIT_DIRECTORY == $BETTER_PWD ]] then
-    echo -ne "\e]1;here${GIT_DIRECTORY##*/}\a"
+    echo -ne "\e]1;${GIT_DIRECTORY##*/}\a"
   else
-    echo -ne "\e]1;(there${GIT_DIRECTORY##*/}) ${BETTER_PWD##*/}\a"
+    echo -ne "\e]1;(${GIT_DIRECTORY##*/}) ${BETTER_PWD##*/}\a"
   fi  
 }
 
