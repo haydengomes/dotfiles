@@ -64,3 +64,9 @@ unset config_files updated_at
 # }
 
 # add-zsh-hook precmd tab_title
+
+# Bridge bash autocompletes to ZSH
+autoload -U +X bashcompinit && bashcompinit
+
+# Enable terraform autocompletion
+complete -o nospace -C /Users/hayden.gomes/.asdf/installs/terraform/1.5.3/bin/terraform terraform
